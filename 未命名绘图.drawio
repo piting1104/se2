@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1182" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="394" dy="250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,7 +187,7 @@
         <mxCell id="1bR9SVQvWlqgkYjFtN-8-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1bR9SVQvWlqgkYjFtN-8-103" target="1bR9SVQvWlqgkYjFtN-8-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1bR9SVQvWlqgkYjFtN-8-103" value="把R0跟R1加起來&lt;div&gt;查表顯示在最右邊位置的顯示器&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1bR9SVQvWlqgkYjFtN-8-103" value="A=R0+R1&lt;div&gt;查表顯示在最右邊位置的顯示器&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="647" width="130" height="43" as="geometry" />
         </mxCell>
         <mxCell id="1bR9SVQvWlqgkYjFtN-8-105" value="DISP_DELAY 延遲函示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
