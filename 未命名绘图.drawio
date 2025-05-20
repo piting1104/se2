@@ -2588,11 +2588,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zy7iGpbihg29DnZbRi9h-76" value="&lt;div&gt;ORG 00H&lt;/div&gt;&lt;div&gt;JMP MAIN&lt;/div&gt;&lt;div&gt;ORG 50H&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="-226.12" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Zy7iGpbihg29DnZbRi9h-77" value="初始化階段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-70" y="-273.87" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48_NHXqZOzkNbMwubqEC-1" value="ORG 00H&lt;br&gt;&amp;nbsp; JMP MAIN&lt;div&gt;ORG 03H&lt;/div&gt;&lt;div&gt;JMP EXT0_ISR&lt;div&gt;ORG 50H&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-227.5" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
