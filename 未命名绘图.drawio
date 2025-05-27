@@ -2561,7 +2561,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TO85BxoPgXh1zWC3ArRo" name="第 9 页">
-    <mxGraphModel dx="786" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2697,7 +2697,8 @@
             <mxPoint x="589.98" y="779.97" as="sourcePoint" />
             <mxPoint x="589.98" y="679.97" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="780" />
+              <mxPoint x="590" y="790" />
+              <mxPoint x="680" y="790" />
               <mxPoint x="680" y="680" />
             </Array>
           </mxGeometry>
@@ -2719,10 +2720,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sh4wgQvffJLwBIS1a7hl-33" value="&lt;div&gt;MOV A, TL1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV R4, A&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV B, #10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DIV AB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV R0, B&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV B, #10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DIV AB&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV R1, B&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MOV B, #10&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DIV AB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MOV R2, B&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV R3, A&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV TH1, #0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MOV TL1, #0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="145" y="300" width="120" height="210" as="geometry" />
+          <mxGeometry x="155" y="300.25" width="120" height="210" as="geometry" />
         </mxCell>
         <mxCell id="sh4wgQvffJLwBIS1a7hl-34" value="CLR TF0&lt;div&gt;CPL P1.0&amp;nbsp;&lt;/div&gt;&lt;div&gt;每次 29μs 翻轉一次電位， 58μs 方波（理想的 Trig 頻率）&amp;nbsp;&lt;/div&gt;&lt;div&gt;RETI&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="769.97" width="120" height="90.03" as="geometry" />
+          <mxGeometry x="160" y="772.72" width="120" height="90.03" as="geometry" />
         </mxCell>
         <mxCell id="QHQ_QnAolUBLDIxCdW47-1" value="TIMER0_ISR:" style="text;whiteSpace=wrap;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="165" y="570" width="110" height="40" as="geometry" />
@@ -2811,23 +2812,47 @@
         <mxCell id="OwuroxYyHELW_zxWKSxz-20" value="延遲子程式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="710" y="252.25" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OwuroxYyHELW_zxWKSxz-22" value="延遲子程式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="160" y="267.75" width="100" height="30" as="geometry" />
+        <mxCell id="OwuroxYyHELW_zxWKSxz-22" value="INT1_ISR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="170" y="252.25" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OwuroxYyHELW_zxWKSxz-23" value="延遲子程式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="364" y="252.25" width="100" height="30" as="geometry" />
+        <mxCell id="OwuroxYyHELW_zxWKSxz-23" value="主程式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="379" y="252.25" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q7xNAjj_VyDhDsoxy_rj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q7xNAjj_VyDhDsoxy_rj-1" target="Q7xNAjj_VyDhDsoxy_rj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q7xNAjj_VyDhDsoxy_rj-1" value="Timer0 每次從 227 開始加" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="597.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q7xNAjj_VyDhDsoxy_rj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q7xNAjj_VyDhDsoxy_rj-3" target="sh4wgQvffJLwBIS1a7hl-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q7xNAjj_VyDhDsoxy_rj-3" value="計數 29 個 ticks（29μs）後溢位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="689.95" width="120" height="40.03" as="geometry" />
+          <mxGeometry x="160" y="709.95" width="120" height="40.03" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7xNAjj_VyDhDsoxy_rj-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="sh4wgQvffJLwBIS1a7hl-34" target="Q7xNAjj_VyDhDsoxy_rj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="770" as="sourcePoint" />
+            <mxPoint x="500" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="890" />
+              <mxPoint x="120" y="890" />
+              <mxPoint x="120" y="610" />
+              <mxPoint x="220" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7xNAjj_VyDhDsoxy_rj-7" value="YES" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="880" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7xNAjj_VyDhDsoxy_rj-8" value="NO" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="379" y="860" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7xNAjj_VyDhDsoxy_rj-9" value="YES" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="760" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7xNAjj_VyDhDsoxy_rj-10" value="NO" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="770.25" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
