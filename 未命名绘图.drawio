@@ -3314,7 +3314,7 @@
         <mxCell id="DkiBqq3duTR0FptnsiHu-21" value="STOP_PLAY:" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="837.5" width="70" height="22.5" as="geometry" />
         </mxCell>
-        <mxCell id="DkiBqq3duTR0FptnsiHu-22" value="CLR TR0&#xa;    CLR P0.0&#xa;    CLR 20H" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="DkiBqq3duTR0FptnsiHu-22" value="CLR TR0&lt;br&gt;&amp;nbsp;CLR P0.0&lt;br&gt;CLR 20H" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBB2nT47wTCPwlqgPDzO-1" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
