@@ -3280,7 +3280,7 @@
           <mxGeometry x="830" y="681.62" width="60" height="15" as="geometry" />
         </mxCell>
         <mxCell id="DkiBqq3duTR0FptnsiHu-14" value="&lt;span&gt;POP PSW             ; 恢復程式狀態字&lt;br&gt;&lt;/span&gt;&lt;span&gt;POP ACC&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="970" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DkiBqq3duTR0FptnsiHu-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DkiBqq3duTR0FptnsiHu-7" target="DkiBqq3duTR0FptnsiHu-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3304,18 +3304,15 @@
             <mxPoint x="910" y="780" as="sourcePoint" />
             <mxPoint x="960" y="730" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1030" y="820" />
-              <mxPoint x="810" y="820" />
-              <mxPoint x="810" y="710" />
-              <mxPoint x="900" y="710" />
+              <mxPoint x="1030" y="920" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DkiBqq3duTR0FptnsiHu-21" value="STOP_PLAY:" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="950" y="837.5" width="70" height="22.5" as="geometry" />
+          <mxGeometry x="1135" y="897.5" width="70" height="22.5" as="geometry" />
         </mxCell>
         <mxCell id="DkiBqq3duTR0FptnsiHu-22" value="CLR TR0&lt;br&gt;&amp;nbsp;CLR P0.0&lt;br&gt;CLR 20H" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="1115" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBB2nT47wTCPwlqgPDzO-1" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1150" y="837.5" as="geometry" />
