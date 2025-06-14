@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4" pages="11">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="786" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -3316,6 +3316,81 @@
         </mxCell>
         <mxCell id="GBB2nT47wTCPwlqgPDzO-1" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1150" y="837.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K7xKpGbMN10R0DiKOhNP" name="第 11 页">
+    <mxGraphModel dx="1093" dy="158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8xCt9jSxDIjU5BHOVfN-1" target="S8xCt9jSxDIjU5BHOVfN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-1" value="開始主迴圈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8xCt9jSxDIjU5BHOVfN-2" target="S8xCt9jSxDIjU5BHOVfN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-2" value="按鍵掃描 (KEYSCAN_NONBLOCK)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8xCt9jSxDIjU5BHOVfN-4" target="S8xCt9jSxDIjU5BHOVfN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-4" value="檢查碰撞 (CHECK_COLLISION)&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-6" value="&lt;br&gt;&lt;span&gt;亮度增強迴圈 (重複8次)&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;├─ 顯示玩家LED&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;└─ 顯示自動LED  &lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="360" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-8" value="按鍵掃描處理 (KEYSCAN_NONBLOCK)" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="430" y="60" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-10" value="檢查按鍵延遲計數器 (36H)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-11" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 30H, #00000001B&amp;nbsp; &amp;nbsp; &amp;nbsp;; 玩家從bit0開始（最右邊&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ; 初始化自動LED狀態&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 31H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;; TABLE計數器從0開始&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 32H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;; 位置計數器從0開始&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 33H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ; 重複顯示計數器從0開始&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 34H, #00010000B&amp;nbsp; &amp;nbsp; &amp;nbsp;; X軸初始位置 (最左邊第一列)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ; 初始化按鍵狀態&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 35H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;; 按鍵未按下&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 36H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;; 按鍵延遲計數器&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 37H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;; 額外延遲計數器&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ; 初始化碰撞檢測&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 38H, #0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;; 無碰撞&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MOV 39H, #0&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="40" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-185" y="370" as="sourcePoint" />
+            <mxPoint x="-193.76190476190493" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-13" value="MAIN_LOOP:" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="290" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-14" value="START:" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="20" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-330" y="430" as="sourcePoint" />
+            <mxPoint x="-290" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-360" y="430" />
+              <mxPoint x="-360" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8xCt9jSxDIjU5BHOVfN-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="410" as="sourcePoint" />
+            <mxPoint x="-185" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-21" value="CHECK_COLLISION:" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-22" value="檢查按鍵36H是否為0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="310" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-24" value="檢查新按鍵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="400" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
