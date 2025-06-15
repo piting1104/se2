@@ -3379,9 +3379,6 @@
         <mxCell id="S8xCt9jSxDIjU5BHOVfN-24" value="CHECK_NEW_KEY&lt;div&gt;檢查按鍵狀態&lt;/div&gt;&lt;div&gt;MOV A,35H&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-245" y="420" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RxIqbWj-8ahrnJQDqmhg-3" value="NO" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="565" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="RxIqbWj-8ahrnJQDqmhg-6" value="YES，無延遲" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-180" y="400" width="80" height="10" as="geometry" />
         </mxCell>
@@ -3591,6 +3588,23 @@
               <mxPoint x="2" y="1300" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ECG8spaINtQcnKLVsQRm-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="RxIqbWj-8ahrnJQDqmhg-9" target="ECG8spaINtQcnKLVsQRm-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="660" as="sourcePoint" />
+            <mxPoint x="-200" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="530" />
+              <mxPoint x="-300" y="1300" />
+              <mxPoint x="2" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECG8spaINtQcnKLVsQRm-57" value="NO" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="565" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ECG8spaINtQcnKLVsQRm-58" value="YES" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-310.62" y="510" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
