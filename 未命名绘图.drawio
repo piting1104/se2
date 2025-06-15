@@ -3321,7 +3321,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K7xKpGbMN10R0DiKOhNP" name="第 11 页">
-    <mxGraphModel dx="1432" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3367,16 +3367,6 @@
         <mxCell id="S8xCt9jSxDIjU5BHOVfN-14" value="START:" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-320" y="20" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S8xCt9jSxDIjU5BHOVfN-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-330" y="430" as="sourcePoint" />
-            <mxPoint x="-290" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-360" y="430" />
-              <mxPoint x="-360" y="340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="S8xCt9jSxDIjU5BHOVfN-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8xCt9jSxDIjU5BHOVfN-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-100" y="410" as="sourcePoint" />
@@ -3389,7 +3379,7 @@
         <mxCell id="S8xCt9jSxDIjU5BHOVfN-22" value="檢查按鍵36H是否為0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="310" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8xCt9jSxDIjU5BHOVfN-24" value="檢查新按鍵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="S8xCt9jSxDIjU5BHOVfN-24" value="減少延遲技術" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-245" y="400" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
