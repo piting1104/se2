@@ -3609,8 +3609,47 @@
         <mxCell id="PWm9sQWzo5UvWGrSvx_9-1" value="&lt;div&gt;碰撞檢測&lt;/div&gt;CALL CHECK_COLLISION" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-590" y="300" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PWm9sQWzo5UvWGrSvx_9-2" value="檢查按鍵延遲計數&lt;div&gt;JZ CHECK_NEW_KEY&lt;br&gt;&lt;div&gt;A = 0?&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="390" width="192.5" height="70" as="geometry" />
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-2" value="自動LED在第一列?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-596.25" y="370" width="192.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PWm9sQWzo5UvWGrSvx_9-1" target="PWm9sQWzo5UvWGrSvx_9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="310" as="sourcePoint" />
+            <mxPoint x="-80" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PWm9sQWzo5UvWGrSvx_9-4" target="PWm9sQWzo5UvWGrSvx_9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-4" value="取的自動LED資料&lt;div&gt;根據31H選擇TABLE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PWm9sQWzo5UvWGrSvx_9-2" target="PWm9sQWzo5UvWGrSvx_9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="310" as="sourcePoint" />
+            <mxPoint x="-80" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-6" value="比較位置&lt;div&gt;MOV A, 30H 玩家位置&lt;/div&gt;&lt;div&gt;ANL A,R1 自動LED位置&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="545" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-8" value="位置有重疊?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="620" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PWm9sQWzo5UvWGrSvx_9-6" target="PWm9sQWzo5UvWGrSvx_9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="510" as="sourcePoint" />
+            <mxPoint x="-80" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-10" value="CALL COLLISION_ACTION&lt;div&gt;INC 39H閃爍計數器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWm9sQWzo5UvWGrSvx_9-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PWm9sQWzo5UvWGrSvx_9-8" target="PWm9sQWzo5UvWGrSvx_9-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="610" as="sourcePoint" />
+            <mxPoint x="-80" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
